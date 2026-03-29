@@ -63,7 +63,7 @@ export const highlightedLinks = {
     image: "/images/placeholder.svg",
   },
   film: {
-    href: "https://drive.google.com/your-film-link", // TODO: replace
+    href: "https://drive.google.com/file/d/1t6_ylDUhzKhdyqtxeAfppI_cc_ZPUyFM/view?usp=sharing", // TODO: replace
     image: "/images/placeholder.svg",
   },
   graphicDesign: {
