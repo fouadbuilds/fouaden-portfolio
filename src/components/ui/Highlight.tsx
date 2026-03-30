@@ -33,7 +33,7 @@ export default function Highlight({
             alt=""
             fill
             sizes="218px"
-            style={{ objectFit: "cover" }}
+            style={{ objectFit: "fill" }}
           />
         </span>
       )}

@@ -8,7 +8,6 @@ export const siteConfig = {
   name: "fouaden",
   email: "adeniranfouado@gmail.com",
   github: "https://github.com/fouadbuilds",
-  fiverr: "#",
 };
 
 export const projects = [
@@ -17,8 +16,8 @@ export const projects = [
     title: "snipit",
     description:
       "A CLI tool to save, search, and copy code snippets locally from your terminal. Published on npm.",
-    github: "https://github.com/fouadbuilds/snipit",
-    image: "/images/placeholder.svg",
+    github: "https://www.npmjs.com/package/@fouaden/snipit",
+    image: "/images/project-img/snipit.png",
   },
   {
     slug: "litebox",
@@ -26,7 +25,7 @@ export const projects = [
     description:
       "A lightweight self-hosted file storage app with a client-server architecture. Upload and manage files through a clean interface backed by a Node.js server.",
     github: "https://github.com/fouadbuilds/LiteBox",
-    image: "/images/placeholder.svg",
+    image: "/images/project-img/file-storage.jpg",
   },
   {
     slug: "snipurl",
@@ -34,7 +33,7 @@ export const projects = [
     description:
       "A full-stack URL shortener with a custom backend that maps short codes to long URLs and handles redirects.",
     github: "https://github.com/fouadbuilds/snipUrl",
-    image: "/images/placeholder.svg",
+    image: "/images/project-img/snipurl.png",
   },
   // Add more projects:
   // {
@@ -60,14 +59,14 @@ export const writing: WritingItem[] = [
 export const highlightedLinks = {
   dalhousie: {
     href: "https://dal.ca",
-    image: "/images/placeholder.svg",
+    image: "/images/dalhousie.jpg",
   },
   film: {
     href: "https://drive.google.com/file/d/1t6_ylDUhzKhdyqtxeAfppI_cc_ZPUyFM/view?usp=sharing", // TODO: replace
-    image: "/images/placeholder.svg",
+    image: "/images/film.png",
   },
   graphicDesign: {
     href: "https://ca.pinterest.com/steepice0/",
-    image: "/images/placeholder.svg",
+    image: "/images/gph-design.png",
   },
 };

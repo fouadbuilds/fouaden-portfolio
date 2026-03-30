@@ -625,6 +625,10 @@ body {
     row-gap: 10px;
   }
 
+  .nav-logo {
+    margin: 0 auto;
+  }
+
   .nav-links {
     width: 100%;
     gap: 10px;
@@ -662,6 +666,7 @@ body {
   }
 
   .sticker-photo {
+    position: absolute;
     width: 182px;
     height: 226px;
   }
@@ -676,4 +681,32 @@ body {
     width: 100%;
     text-align: right;
   }
+}
+
+/* Scrollbar */
+/* Modern standard for Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #cccccc #f0f0f0; /* thumb color, track color */
+}
+
+/* Chrome, Edge, and Safari */
+::-webkit-scrollbar {
+  width: 8px; /* Vertical scrollbar width */
+  height: 8px; /* Horizontal scrollbar height */
+}
+
+::-webkit-scrollbar-track {
+  background: #f0f0f0; /* Light grey track */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cccccc;
+  border-radius: 10px;
+  border: 2px solid #f0f0f0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b3b3b3; /* Darker grey on hover */
 }

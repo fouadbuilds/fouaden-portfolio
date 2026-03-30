@@ -17,7 +17,7 @@ export default function Navbar() {
         {[
           { label: "projects", href: "/projects", external: false },
           { label: "writing", href: "/writing", external: false },
-          { label: "resume", href: "/resume-placeholder.pdf", external: true },
+          { label: "resume", href: "/resume.pdf", external: true },
         ].map(({ label, href, external }) => (
           <li key={label}>
             <Link

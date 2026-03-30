@@ -30,7 +30,7 @@ export default function Home() {
             infrastructure as well as automation, and how things actually work.
           </p>
           <p>
-            outside of this i run and shoot{" "}
+            Outside of this i run and shoot{" "}
             <Highlight
               color="red"
               href={highlightedLinks.film.href}
