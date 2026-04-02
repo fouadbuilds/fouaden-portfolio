@@ -50,15 +50,6 @@ export default function Home() {
           </p>
         </div>
 
-        <p className="status-body">
-          The page could not be loaded right now. You can try again or head back
-          home.
-        </p>
-
-        <Link href="/" className="status-home-link">
-          Back home
-        </Link>
-
         <h2 className="section-heading">projects</h2>
 
         <ul className="project-list">
