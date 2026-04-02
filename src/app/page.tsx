@@ -2,6 +2,7 @@ import HiThereSticker from "@/components/ui/HiThereSticker";
 import Highlight from "@/components/ui/Highlight";
 import TypewriterTitle from "@/components/ui/TypewriterTitle";
 import { projects, highlightedLinks } from "@/lib/data";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -25,12 +26,12 @@ export default function Home() {
             </Highlight>
           </p>
           <p>
-            I&apos;m drawn to what happens under the hood — systems,
+            I care a great deal about friction.
             <br />
-            infrastructure as well as automation, and how things actually work.
+            Everything I build is an attempt to remove it.
           </p>
           <p>
-            Outside of this i run and shoot{" "}
+            Spending my spare time running, shooting{" "}
             <Highlight
               color="red"
               href={highlightedLinks.film.href}
@@ -38,7 +39,7 @@ export default function Home() {
             >
               film
             </Highlight>
-            , i love{" "}
+            , soccer and{" "}
             <Highlight
               color="purple"
               href={highlightedLinks.graphicDesign.href}
@@ -46,9 +47,17 @@ export default function Home() {
             >
               graphic design
             </Highlight>
-            , and soccer.
           </p>
         </div>
+
+        <p className="status-body">
+          The page could not be loaded right now. You can try again or head back
+          home.
+        </p>
+
+        <Link href="/" className="status-home-link">
+          Back home
+        </Link>
 
         <h2 className="section-heading">projects</h2>
 
