@@ -2,8 +2,6 @@
 //  SITE DATA — edit this file to update content
 // ─────────────────────────────────────────────
 
-import type { WritingItem } from "@/types";
-
 export const siteConfig = {
   name: "fouaden",
   email: "adeniranfouado@gmail.com",
@@ -12,12 +10,21 @@ export const siteConfig = {
 
 export const projects = [
   {
+    slug: "Google Classroom Search",
+    title: "Google Classroom Search",
+    description:
+      "Personal project that searches through assignments, materials and announcements in Google Classroom",
+    github: "https://github.com/fouadbuilds/google-classroom-search",
+    image: "/images/project-img/classroom-search-screenshot.png",
+  },
+  {
     slug: "snipit",
     title: "snipit",
     description:
       "A CLI tool to save, search, and copy code snippets locally from your terminal. Published on npm.",
     github: "https://www.npmjs.com/package/@fouaden/snipit",
     image: "/images/project-img/snipit.png",
+    showOnHome: true,
   },
   {
     slug: "litebox",
@@ -26,6 +33,7 @@ export const projects = [
       "A lightweight self-hosted file storage app with a client-server architecture. Upload and manage files through a clean interface backed by a Node.js server.",
     github: "https://github.com/fouadbuilds/LiteBox",
     image: "/images/project-img/file-storage.jpg",
+    showOnHome: false,
   },
   {
     slug: "snipurl",
@@ -34,6 +42,7 @@ export const projects = [
       "A full-stack URL shortener with a custom backend that maps short codes to long URLs and handles redirects.",
     github: "https://github.com/fouadbuilds/snipUrl",
     image: "/images/project-img/snipurl.png",
+    showOnHome: true,
   },
   // Add more projects:
   // {
@@ -43,17 +52,6 @@ export const projects = [
   //   github: "https://github.com/fouadbuilds/...",
   //   image: "/images/my-project.jpg",
   // },
-];
-
-export const writing: WritingItem[] = [
-  {
-    title: "The Alchemist",
-    type: "reading" as const,
-    description: "",
-    link: "",
-  },
-  // Add more:
-  // { title: "My Post", type: "writing" as const, description: "...", link: "" },
 ];
 
 export const highlightedLinks = {

@@ -16,7 +16,6 @@ export default function Navbar() {
       <ul className="nav-links">
         {[
           { label: "projects", href: "/projects", external: false },
-          { label: "writing", href: "/writing", external: false },
           { label: "resume", href: "/resume.pdf", external: true },
         ].map(({ label, href, external }) => (
           <li key={label}>
@@ -24,9 +23,8 @@ export default function Navbar() {
               href={href}
               target={external ? "_blank" : undefined}
               rel={external ? "noopener noreferrer" : undefined}
-              className={`nav-link ${label} ${pathname === href ? "active" : ""}`}
+              className={`nav-link ${pathname === href ? "active" : ""}`}
             >
-              <span className="link-bg" />
               {label}
             </Link>
           </li>
